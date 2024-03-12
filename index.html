@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>CSS</title>
+    <style>
+        div#div2{
+            
+            background-color: brown;
+            padding: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+         }
+         div#div3{
+            background-color: rgb(62, 56, 56);
+            height: 100px;
+            width: 100px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: aliceblue;
+            transform: skewy(30deg);
+            padding: 10px;
+            cursor: wait;
+            font-weight: bold;
+         }
+         div#div4{
+            background-color:rgb(6, 139, 248) ;
+            margin-top: 50px;
+            height: 200px;
+            width:200px;
+            animation-name: sample;
+            animation-duration: 10s;
+            animation-direction: alternate;
+            position: relative;
+
+
+         }
+         @keyframes sample{
+            0%{background-color:rgb(6, 139, 248); }
+            20%{background-color: blue; }
+            30%{background-color: blueviolet;}
+            40%{background-color: green;}
+            50%{background-color: darkgreen;}
+            60%{background-color: yellowgreen;}
+            70%{background-color:red; }
+            80%{background-color:brown ;}
+            90%{background-color: orange;}
+            100%{background-color:rgb(6, 139, 248);}
+         }
+         
+    </style>
+</head>
+<body>
+
+    
+       
+            <div class="column-4-md" style="background-color: black;">
+                <p style="color: aliceblue;">I've designed this webpage using Html&Css </p>
+                <p style="color: aliceblue;">i used padding,cursor,animation,2d transform,Text,etc.</p>
+
+
+            </div>
+            <div id="div2" class="column-4-md">
+                <p>Salman</p>
+
+            </div>
+            <div id="div3" class="column-4-md" style="background-color: rgb(62, 56, 56);">
+                <p>Place the cursor here</p>
+
+            </div>
+            <div id="div4" class="column-4-md" >
+                
+
+            </div>
+           
+        
+    
+    
+</body>
+</html>
